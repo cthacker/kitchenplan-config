@@ -2,7 +2,7 @@ recipes:
     global:
         - dotfiles::gitconfig
         - applications::ssh_config
-        - dotfiles::vim
+        # dotfiles::vim
         - dotfiles::workspace
     mac_os_x:
         - applications::sublime_text_3
@@ -55,7 +55,7 @@ attributes:
             - rsync
             - mongodb
             - elasticsearch
-            - node010
+            # node010
             - cassandra
             - rabbitmq
             - icu4c
